@@ -1,11 +1,25 @@
 body {
   text-align: center;
+  background-color: #e3e3e3;  
 }
 
-ul {
+.container {
+  width: 30%;
+  min-height: 500px;
+  margin: 20px auto;
+  background-color: #fff;
+}
+
+#items {
   list-style-type: none;
+  margin: 20px 100px;
+  text-align: left;  
 }
 
 .strike {
   text-decoration: line-through;
+}
+
+.delete {
+  float: right;
 }
